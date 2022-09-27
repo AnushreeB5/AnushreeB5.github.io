@@ -31,20 +31,10 @@ div {
     left: calc(50% - 240px);
 }
 
-.third-row {
-    width: 60px;
-    height: 60px;
-    background: #be6868;
-    display: inline-block;
-    margin-right: 30px;
-    border-radius: 50%;   
-}
-
-
 .circle {
     width: 60px;
     height: 60px;
-    background: #be6868;
+    background: white;
     display: inline-block;
     margin-right: 30px;
     border-radius: 50%;   
@@ -62,11 +52,27 @@ div {
 }
 
 .green {
-    background: #6392c0;
+    background: green;
 }
 .fancy {
     border: 3px inset #6392c0(74, 74, 74, 0.25);
     border-style: dotted; 
     width: 54px;
     height: 54px;
+}
+
+#third-row .circle {
+    background: #de6868; 
+}
+
+#second-row .circle:hover{
+    transform: scale(1.25)
+}
+
+.circle:hover{
+    opacity: 0.5; 
+}
+
+.green, .fancy {
+    background: #6392c0
 }
