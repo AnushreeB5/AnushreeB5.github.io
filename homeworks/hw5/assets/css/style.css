@@ -43,11 +43,9 @@ body {
     /*  [Problem 5]
         FIXME: Use flexbox to make the classes tabs wrap in a 3x2 setup.
         Use flexbox to create equal spacing between each box. */
-        display: flex;
-        flex-direction: row;
+        display: flexbox;
+        flex-direction: row; 
         justify-content: space-around;
-
-
 
 }
 .dashboard--classes__box{
@@ -57,7 +55,7 @@ body {
         [Problem 7]
         FIXME: Add 35px to the space under each box. (Choose carefully!) */
 
-        width: 31.5; 
+        width: 31.5%; 
         padding-bottom: 35px;
 
         
