@@ -13,7 +13,7 @@ body {
 }
 .nav--button{
     /*  [Problem 2]
-        FIXME: Initialize flexbox vertically. Align the text and icons so that they
+        FIXME: Initialize flex vertically. Align the text and icons so that they
         are center aligned. */
         display: flex; 
         align-items:center; 
@@ -36,17 +36,17 @@ body {
         display: flex; 
         flex-direction: row;
         justify-content: space-between; 
-        align-items: center; 
+        align-items: flex-start; 
 
 }
 .dashboard--classes{
     /*  [Problem 5]
         FIXME: Use flexbox to make the classes tabs wrap in a 3x2 setup.
         Use flexbox to create equal spacing between each box. */
-        display: flexbox;
-        flex-direction: row; 
-        justify-content: space-around;
-
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
 }
 .dashboard--classes__box{
     /*  [Problem 6]
@@ -56,8 +56,7 @@ body {
         FIXME: Add 35px to the space under each box. (Choose carefully!) */
 
         width: 31.5%; 
-        padding-bottom: 35px;
-
+        margin-bottom: 35px;
         
 }
 /*  [Problem 8]
