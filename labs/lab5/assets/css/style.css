@@ -12,20 +12,26 @@ body {
 /*Edit and add the necessary code for all of question 1, Navbar Madness, below */
 
 #q1-navbar {
+
 	background: #364156;
-	color: white;
-
-
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
 
 }
 
-.home, .about, .contact{
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
+home{
+	justify-content: space-around;
+}
+
+about{
+	justify-content: space-between;
+}
+
+contact{
+	justify-content: space-around;
 }
 
 
@@ -50,15 +56,12 @@ body {
 
 .q2-big-box{
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.q2-tiny-box{
-	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: center;
 }
+
+
 
 /*************************/
 /*OTHER CODE THAT WE USED*/
