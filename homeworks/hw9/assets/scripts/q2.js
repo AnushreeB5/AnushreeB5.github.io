@@ -7,12 +7,12 @@
  *
  * @param {string} lightboxID The id of the lightbox pop-up to show
  */
-function unhideLightbox(lightboxID) {
+ function unhideLightbox(lightboxID) {
 	// This removes the .hidden class from the #lightbox-overlay div
 	document.getElementById('lightbox-overlay').classList.remove('hidden');
 
 	// TODO: Remove the .hidden class from the div with the given id
-	lightboxID.classList.remove.hidden; 
+	document.getElementById("lightboxID").classList.remove("hidden"); 
 
 }
 
@@ -26,23 +26,23 @@ function unhideLightbox(lightboxID) {
  */
 function unhideLightbox1() {
 	// TODO: Look in q2.html to see what the id for the lightbox div for the first picture, and call unhideLightbox
-	let unhideLightbox = dogoo1; 
+	unhideLightbox("doggo1"); 
 }
 
 // TODO: Set the browser to run the function unhideLightbox1 when someone clicks #picture-1
-#picture-1Element.onclick= unhideLightbox1; 
+//element.onclick = functionToRun
+
+document.getElementById("picture-1").onclick = unhideLightbox1; 
 
 // TODO: do the same for #picture-2, write a function and then make it run on click
 
+document.getElementById("picture-2").onclick = unhideLightbox1; 
 
 
 
 
 // TODO: do the same for #picture-3, write a function and then make it run on click
-
-
-
-
+document.getElementById("picture-3").onclick = unhideLightbox1; 
 
 
 // 
@@ -53,6 +53,7 @@ function closeLightbox(lightboxID) {
 	document.getElementById('lightbox-overlay').classList.add('hidden');
 
 	// TODO: Add the .hidden class to the div with the given id
+	document.getElementById("lightboxID").classList.add('hidden'); 
 
 }
 
@@ -72,3 +73,5 @@ function closeAllLightboxes() {
 }
 
 // TODO: set the closeAllLightboxes function to run when #lightbox-overlay is clicked on.
+
+document.getElementById("lightbox-overlay").onclick = closeAllLightboxes; 

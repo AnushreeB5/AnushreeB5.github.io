@@ -10,8 +10,7 @@
  */
 function setBackgroundColor(color) {
     // TODO: Get the element with the id "q1-container" and set its background color to the input color
-    
-
+    document.body.style.backgroundColor = color;
 }
 
 //
@@ -27,26 +26,31 @@ function setBackgroundColor(color) {
  */
 function redButtonClicked() {
     // TODO: Use the setBackgroundColor() to set the background color to #EF476F (or another color of your choice)
-
+    
+    document.body.style.backgroundColor = "#EF476F";
+    
 }
 
+
 // This gets the element with id "q1-btn-red" and sets the browser to run the function redButtonClicked() when someone clicks the element
-document.getElementById("q1-btn-red").onclick = redButtonClicked;
+//document.getElementById("q1-btn-red").onclick = redButtonClicked;
+
 
 // After you finish part 1 & 2, the clicking the red button should turn the background color red!
 
 //
 // Part 3: Program the yellow button similar to what you did with the red button
 //
-
+function yellowButtonClicked() {
+    // TODO: Use the setBackgroundColor() to set the background color to #EF476F (or another color of your choice)
+   // document.body.style.backgroundColor = "#FFD166";
+   setBackgroundColor("#FFD166");
+}
 // For the yellow button
 // Use the color #FFD166, or change it up to your liking
 
 // TODO: Define a function like yellowButtonClicked() that sets the background color
 
-function yellowButtonClicked(){
-    document.style.backgroundColor= "#FFD166"; 
-}
 
 
 
@@ -66,7 +70,9 @@ function yellowButtonClicked(){
 // Use the color #06D6A0, or change it up to your liking
 
 // TODO: Make the green button work similarly
-
+function greenButtonClicked(){
+    setBackgroundColor("#06D6A0"); 
+}
 
 
 
@@ -76,7 +82,9 @@ function yellowButtonClicked(){
 
 // TODO: Make the light blue button work similarly
 
-
+function lightBlueButtonClicked(){
+    setBackgroundColor("#118AB2"); 
+}
 
 
 
@@ -84,3 +92,7 @@ function yellowButtonClicked(){
 // Use the color #073B4C, or change it up to your liking
 
 // TODO: Make the blue button work similarly
+
+function blueButtonClicked(){
+    setBackgroundColor("#073B4C"); 
+}
