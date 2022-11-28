@@ -1,0 +1,36 @@
+html{
+    background: #EFE9E7;
+}
+
+.navHome{
+    font-family: Neue Machina;
+    font-size: 32px;
+    font-weight: lighter;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a:link{
+    opacity: 50%;
+    text-decoration: none;
+    color: black;
+  }
+
+a:visited{
+    text-decoration: none;
+    color: black; 
+  }
+  
+a:hover{
+    opacity: 100%;
+    font-size: 25px;
+    color: maroon;
+  }
+
+a:active{
+    opacity: 100%;
+}
+
