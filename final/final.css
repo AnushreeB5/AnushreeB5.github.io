@@ -1,0 +1,64 @@
+html{
+    background: #EFE9E7;
+}
+
+h1{
+    font-family: Alex Brush;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-family: Blinker;
+    font-size: 22px;
+    font-weight: ExtraLight; 
+    display: flex;
+    justify-content: center;
+}
+
+.navHome{
+    font-family: Neue Machina;
+    font-size: 32px;
+    font-weight: lighter;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 25%;
+    width: 0%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+  }
+
+a:visited{
+    text-decoration: none;
+    color: black; 
+  }
+  
+a:hover{
+    opacity: 50%;
+    color: maroon;
+    padding-left: 40px;
+    
+  }
+
+a:active{
+    text-decoration: none;
+}
+
+#selfPic{ 
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#roseHome{
+    opacity: 30%;
+
+}

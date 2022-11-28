@@ -7,11 +7,6 @@ function toggleTheme(){
 
 // Use JS to get the toggle button element, and store it in a variable with a reasonable name.
 
-
-
-
-
-
 let buttonVariable = document.getElementById("toggleButton"); 
 
 //document.getElementById("toggle-button").onclick = toggleSongs;

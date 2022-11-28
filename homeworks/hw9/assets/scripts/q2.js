@@ -39,8 +39,6 @@ document.getElementById("picture-1").onclick = unhideLightbox1;
 document.getElementById("picture-2").onclick = unhideLightbox1; 
 
 
-
-
 // TODO: do the same for #picture-3, write a function and then make it run on click
 document.getElementById("picture-3").onclick = unhideLightbox1; 
 

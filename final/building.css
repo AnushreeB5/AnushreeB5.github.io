@@ -1,0 +1,70 @@
+html{
+    background: #EFE9E7;
+}
+
+.navHome{
+    font-family: Neue Machina;
+    font-size: 32px;
+    font-weight: lighter;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a:link{
+    opacity: 50%;
+    text-decoration: none;
+    color: black;
+  }
+
+a:visited{
+    text-decoration: none;
+    color: black; 
+  }
+  
+a:hover{
+    opacity: 100%;
+    font-size: 25px;
+    color: maroon;
+  }
+
+a:active{
+    opacity: 100%;
+}
+
+
+.bob{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.note{
+    font-family: Neue Machina;
+    font-size: 32px;
+    font-weight: Light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: right; */
+    animation-name: waveanimation; 
+	animation-duration: 2s; 
+	animation-iteration-count: infinite;
+
+}
+
+
+@keyframes waveanimation{
+	0%{
+		transform: translateY(0px); 
+	}
+	50%{
+		transform: translateY(-90px); 
+	}
+	100%{
+		transform: translateY(0px); 
+	}
+}
