@@ -9,9 +9,6 @@ function toggleTheme(){
 
 let buttonVariable = document.getElementById("toggleButton"); 
 
-//document.getElementById("toggle-button").onclick = toggleSongs;
-
-
 //Once you've done that, add the following line of code, which tells the browser: when the button is clicked on, call the toggleTheme function.
 buttonVariable.onclick = toggleTheme;
 

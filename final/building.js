@@ -1,0 +1,1 @@
+alert("Need to collect more cookies until site is ready, come back in a few years -Sincerly AB"); 

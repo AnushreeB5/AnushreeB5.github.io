@@ -1,5 +1,11 @@
 html{
-    background: #EFE9E7;
+    background: #FFFDF9;
+}
+
+h1{
+  font-family: Blinker;
+  font-size: 40px;
+  font-weight: lighter;
 }
 
 .navHome{
@@ -34,3 +40,93 @@ a:active{
     opacity: 100%;
 }
 
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+sb21{
+  width: 460px;
+  height: 259px;
+  flex-basis: 40%; 
+}
+
+.sbText{
+  font-family: Blinker;
+  font-weight: lighter;
+  font-size: 22px;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.container2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+beingWell{
+  width: 206px;
+  height: 119px;
+  flex-basis: 40%; 
+}
+
+.beingWellText{
+  font-family: Blinker;
+  font-weight: lighter;
+  font-size: 22px;
+  padding-right: 50px;
+  text-align: left;
+}
+
+
+.container3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+govPic{
+  width: 206px;
+  height: 119px;
+  flex-basis: 40%; 
+}
+
+.involveText{
+  font-family: Blinker;
+  font-weight: lighter;
+  font-size: 22px;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.container4{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+ribbonPic{
+  width: 206px;
+  height: 119px;
+  flex-basis: 40%; 
+}
+
+.joinText{
+  font-family: Blinker;
+  font-weight: lighter;
+  font-size: 22px;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.container, .container2, .container3, .container4{
+  padding-inline-start: 50px;
+  padding-inline-end: 50px;
+}

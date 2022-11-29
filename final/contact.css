@@ -1,5 +1,5 @@
 html{
-    background: #EFE9E7;
+  background: #FFFDF9;
 }
 
 .navHome{
@@ -14,7 +14,6 @@ html{
 }
 
 a:link{
-    opacity: 50%;
     text-decoration: none;
     color: black;
   }
@@ -25,7 +24,7 @@ a:visited{
   }
   
 a:hover{
-    opacity: 100%;
+    opacity: 50%;
     font-size: 25px;
     color: maroon;
   }
@@ -34,3 +33,14 @@ a:active{
     opacity: 100%;
 }
 
+.info{
+  font-family: Blinker;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}

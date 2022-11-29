@@ -1,5 +1,5 @@
 html{
-    background: #EFE9E7;
+    background: #FFFDF9;
 }
 
 .navHome{
@@ -32,5 +32,78 @@ a:hover{
 
 a:active{
     opacity: 100%;
+}
+
+body{
+  font-family: Blinker;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+berkImg{
+  width: 308px;
+  height: 200px;
+  flex-basis: 40%; 
+}
+
+.selfText{
+  font-family: Blinker;
+  font-weight: lighter;
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+
+.container2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+calLogo{
+  width: 641px;
+  height: 120px;
+  flex-basis: 40%; 
+}
+
+.school{
+  font-family: Blinker;
+  font-weight: lighter;
+  font-size: 22px;
+  text-align: left;
+}
+
+.container3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+logos{
+  width: 641px;
+  height: 120px;
+  flex-basis: 40%; 
+}
+
+.work{
+  font-family: Blinker;
+  font-weight: lighter;
+  font-size: 22px;
+  text-align: left;
+}
+
+
+.container, .container2, .container3 {
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 80px;
 }
 
