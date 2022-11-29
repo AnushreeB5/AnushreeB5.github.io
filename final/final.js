@@ -1,7 +1,7 @@
 function toggleTheme(){
     //Identify the <body> element of the page
     //Toggle .dark-mode css class on <body>
-   let bodyElement = document.querySelector("body"); 
+   let bodyElement = document.querySelector("html"); 
    bodyElement.classList.toggle("dark-mode"); 
 }
 
