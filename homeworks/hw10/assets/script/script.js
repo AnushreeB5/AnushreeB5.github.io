@@ -70,6 +70,6 @@ strip.onclick = function() {
 	/* call the function you created to hide all the outfits */
 	/* show #body */
 
-	(body); 
+	outfit(body);  
 
 };
